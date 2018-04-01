@@ -15,3 +15,5 @@
 Построены к-ядра графа, для к = 2, 3, 4. К-ядро - это максимальный подграф содержащий вершины со степенями не меньше к. Соответстующие графы хранятся в  к-core.gpickle файлах, где k = 2, 3, 4.(k-core.py)
 
 Построены профили вершин: активность(колличество транзакций связанный с каждый кошельком) - activity.txt - реализация в activity.py; изменение баланса каждого кошелька(в единицах измерения сатоши) - balance.txt - реализация в balance.py; степени врешин - degrees.txt - degree.py; степенная центральность вершин - degree_centrality.txt - реализация в degree_centrality.py; eigencentrality  - eigenvector_centrality.txt - реализация в eigenvector_centrality.py 
+
+#### Так как github не позволяет размещать файлы размером больше 100 мб, а практически все получившиеся файлы весят больше, я разместил папку с проектом на dropbox: https://www.dropbox.com/sh/p2j2m3kkj00uwbu/AAAdJxnuA5JzOaLRpFIMPB0wa?dl=0
