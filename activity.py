@@ -2,7 +2,7 @@
 import networkx as nx
 
 print('begin')
-G = nx.read_gpickle("multig.gpickle")
+G = nx.read_gexf("multig.gexf")
 print('graph')
 d = G.degree(G.nodes)
 print('nodes loaded')
